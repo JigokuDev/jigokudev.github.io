@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="moncvnum.css" rel="stylesheet">		
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-sm">
+			<a class="navbar-brand">CV MORGAN HESPEL</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarToggler">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item">
+						<a id="presentation" class="nav-link" href="#">Présentation</a>
+					</li>
+					<li class="nav-item">
+						<a id="competences" class="nav-link" href="#">Compétences</a>
+					</li>
+					<li class="nav-item">
+						<a id="formations" class="nav-link" href="#">Formation</a>
+					</li>
+					<li class="nav-item">
+						<a id="experiences" class="nav-link" href="#">Expériences professionnelles</a>
+					</li>
+					<li class="nav-item">
+						<a id="contact" class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="presentation">
+				<div id="pres-texte" class="text-light rounded">
+				<img src="photo.jpg" id ="maphoto" class="rounded img-responsive mx-auto d-block">
+				<p id="pres-desc">Je suis passionné d'informatique depuis l'obtention de mon premier ordinateur, j'ai commencé par l'installation et la découverte de 
+					GNU/Linux,ce qui m'a mené à créer mes premiers algorithmes en Bash pour automatiser diverses tâches, j'ai ensuite appris le langage Python via divers tutoriels
+					afin de crée des programmes tels que des robots d'indexation ou des outils pour trier et traiter les données.
+				</p>
+				<p id="pres-desc">J'ai ensuite suivi un BTS Services Informatiques aux Organisations pour parfaire mes connaissances, durant cette formation j'ai pu 
+					découvrir la gestion réseau, powershell ainsi que les bases de Php/MySQL que
+					j'ai approfondies par la suite.
+				</p>
+				</div>
+			</div>
+			<div class="competences" style="display: none;">
+				<div id="comp-categorie" class="text-light rounded">
+					<h2 id="comp-categorie-nom">Compétences Developpement</h2>
+					<p id="comp-titre">Python</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:80%">80%</div>
+					</div>
+					<p id="comp-titre">PHP/MySQL</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:60%">60%</div>
+					</div>
+					<p id="comp-titre">HTML/CSS</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:90%">90%</div>
+					</div>
+					<p id="comp-titre">PowerShell</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:60%">60%</div>
+					</div>
+					<p id="comp-titre">Bash</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:75%">75%</div>
+					</div>
+				</div>
+				<div id="comp-categorie" class="text-light rounded">
+					<h2 id="comp-categorie-nom">Compétences Réseaux et Maintenance Informatique</h2>
+					<p id="comp-titre">TCP/IP</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:90%">90%</div>
+					</div>
+					<p id="comp-titre">DHCP/DNS</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:80%">80%</div>
+					</div>
+				</div>
+				<div id="comp-categorie" class="text-light rounded">
+					<h2 id="comp-categorie-nom">Systèmes d'exploitation</h2>
+					<p id="comp-titre">GNU/Linux</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:90%">90%</div>
+					</div>
+					<p id="comp-titre">Windows</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:75%">75%</div>
+					</div>
+				</div>	
+				<div id="comp-categorie" class="text-light rounded">
+					<h2 id="comp-categorie-nom">Langues</h2>
+					<p id="comp-titre">Anglais</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:80%">80%</div>
+					</div>
+					<p id="comp-titre">Japonais</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:30%">30%</div>
+					</div>
+				</div>	
+			</div>
+			<div class="formations" style="display: none;">
+				<div id="formation" class="text-light rounded">		
+					<h2 id="form-titre">BTS Services Informatiques aux Organisations</h2>
+					<p id="form-desc">Option Solutions d'Infrastructure Systémes et Réseaux</p>
+					<p id="form-lieu"> Lycée Paul Claudel Laon 2014</p>
+				</div>
+				<div id="formation" class="text-light rounded">
+					<h2 id="form-titre">BAC Econimique et Social</h2>
+					<p id="form-lieu">Lycée Paul Claudel Laon 2011</p>
+				</div>
+			</div>
+			<div class="experiences" style="display: none;">
+				<div id="experience" class="text-light rounded">
+					<h2 id="exp-poste">Accompagnateur Outils Numériques (Service Civique)</h2>
+					<p id="exp-lieu">Pôle Emploi Laon - Depuis Mai 2018</p>
+					<p id="exp-desc" class="font-italic">Accompagnateur dans l'utilisation des nouveaux outils numériques de pôle emploi et facilitateur d'inclusion numérique</p>
+				</div>
+				<div id="experience" class="text-light rounded">
+					<h2 id="exp-poste">Vendeur polyvalent (Stage)</h2>
+					<p id="exp-lieu">Pulsat Laon - Juillet 2017</p>
+					<p id="exp-desc" class="font-italic">Aide à l'installation/réparation d'antennes/paraboles</p>
+				</div>
+				<div id="experience" class="text-light rounded">
+					<h2 id="exp-poste">Vendeur technicien (Stage)</h2>
+					<p id="exp-lieu">Electro-First Laon - Février 2017</p>
+					<p id="exp-desc" class="font-italic">Vente et réparation d'ordinateurs/téléphones</p>
+				</div>
+				<div id="experience" class="text-light rounded">
+					<h2 id="exp-poste">Technicien de maintenance industrielle (Stage)</h2>
+					<p id="exp-lieu">MS Composites Chavignon - Septembre 2016 à Octobre 2016</p>
+					<p id="exp-desc" class="font-italic">Découverte de la maintenance industrielle</p>
+				</div>
+				<div id="experience" class="text-light rounded">
+					<h2 id="exp-poste">Cuisinier de collectivité (Stage)</h2>
+					<p id="exp-lieu">APEI Laon - Janvier 2016 à Février 2016</p>
+					<p id="exp-desc" class="font-italic">Préparation des entrée/dessert et service en self-service</p>
+				</div>	
+				<div id="experience" class="text-light rounded">
+					<h2 id="exp-poste">Plombier chauffagiste (Stage)</h2>
+					<p id="exp-lieu">Soretherm Picardie Chavignon - Novembre 2015</p>
+					<p id="exp-desc" class="font-italic">Découverte de la plomberie sur divers chantiers en Picardie<p>
+				</div>		
+				<div id="experience" class="text-light rounded">
+					<h2 id="exp-poste">Développeur Web</h2>
+					<p id="exp-lieu">SARL Lookop Crécy-sur-Serre - Avril 2015 à Juin 2015</p>
+					<p id="exp-desc" class="font-italic">Création de sites internet et développement de modules</p>
+				</div>
+				<div id="experience" class="text-light rounded">
+					<h2 id="exp-poste">Administrateur réseaux (Stage)</h2>
+					<p id="exp-lieu">Direction des services départementaux de l'Education nationale Aisne Laon - Décembre 2013 à Janvier 2014</p>
+					<p id="exp-desc" class="font-italic">Renouvellement du parc informatique et gestion du réseau informatique </p>
+				</div>
+				<div id="experience" class="text-light rounded">
+					<h2 id="exp-poste">Développeur Web (Stage)</h2>
+					<p id="exp-lieu">Centre Informations Jeunesse Laon - Juin 2013</p>
+					<p id="exp-desc" class="font-italic">Développement de site pour un canton de communes et une association<p>
+				</div>				
+			</div>
+			<div class="contact-onglet" style="display: none;">
+				<div id="contact-conteneur" class="text-light rounded">
+				<h2 id="contact-titre">Adresse postale</h2>
+				<p id="adresse-postale">4 rue Jean Racine 02270 COUVRON ET AUMENCOURT<p>
+				<h2 id="contact-titre">Adresse mail</h2>
+				<p id="adresse-mail">morgan.hespel@gmail.com<p>
+				<h2 id="contact-titre">Téléphone</h2>
+				<p id="telephone">06 22 60 85 52</p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="moncvnum.js"></script> 
+</html> 

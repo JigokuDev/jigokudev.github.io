@@ -1,0 +1,65 @@
+body {
+    background-image: url("../media/textures/gaming-pattern.png");
+    font-size: 1em;
+}
+.navbar {
+    background-color: #222222;
+    color: #bec8d1;
+    margin-bottom: 10px;
+}
+.nav-item a{
+	color: #bec8d1;
+}
+#formation {
+    background-image: url("../media/textures/connectwork.png");
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+#experience {
+    background-image: url("../media/textures/connectwork.png");
+    padding: 2%;
+    margin-bottom: 3%;
+}
+#contact-conteneur {
+    background-image: url("../media/textures/connectwork.png");
+    padding: 2%;
+    margin-bottom: 3%;
+}
+#comp-categorie {
+    background-image: url("../media/textures/connectwork.png");
+    padding: 2%;
+    margin-bottom: 3%;
+}
+#competence {
+	padding : 2%;
+	margin-bottom: 3%;
+}
+#pres-texte {
+    background-image: url("../media/textures/connectwork.png");
+    padding: 2%;
+    margin-bottom: 1%;
+}
+.progress-bar {
+    background-color: #585c5f;
+    color: #f8f6ec;
+}
+.navbar-toggler {
+	border-color: rgb(255,255,255);	
+}
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, .5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+#pres-desc {
+	text-indent:2em
+}
+#pres-desc br{
+	text-indent:2em
+}
+.modal-content {
+    background-color: #222222;
+}
+#infos_perso ul {
+    list-style: none;
+    padding-left: 0;
+}
